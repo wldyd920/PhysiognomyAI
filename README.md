@@ -1,1 +1,1 @@
-# PhysiognomyAI
+# Physiognomy AI
