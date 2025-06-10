@@ -17,7 +17,7 @@
 구현 방법 :
 1. 먼저, 가장 쉽게 구현할 수 있는 방법은 chatGPT로 입력된 이미지를 관상학적으로 분석한 뒤에, 웹 사이트에 결과를 올려주는거야.
 
-2. 조금 더 어렵게 하자면, pre-trained model을 다운로드 받아서 입력된 이미지로 test만 거쳐서 Big-Five 성격을 알려주는 거야. 이 경우에는 과연 chatGPT보다 pre-trained model이 더욱 성능이 좋은지 확인을 거쳐야해. 이 방법의 장점으로는 dinamic website가 아니어도 된다는거야.
+2. 조금 더 어렵게 하자면, pre-trained model을 다운로드 받아서 입력된 이미지로 test만 거쳐서 Big-Five(외향성 (Extraversion), 호감성 (Agreeableness), 성실성 (Conscientiousness), 신경증 (Neuroticism), 경험에 대한 개방성 (Openness)) 성격을 알려주는 거야. 이 경우에는 과연 chatGPT보다 pre-trained model이 더욱 성능이 좋은지 확인을 거쳐야해. 이 방법의 장점으로는 dinamic website가 아니어도 된다는거야.
 
 3. 조금 더 어렵게 하자면, 모델을 직접 설계하는거야. Big-Five 중에서도 각각 하나씩 실수나 정수형태로 점수를 매겨주는 모델을 5개 따로 train해서 각각의 점수를 매기는 것이야. 이 경우에는 데이터세트가 확실히 있어야돼. 사용 가능한 모든 오픈소스 데이터세트를 사용해도 부족할 수도 있어. 그리고 CNN이 아니라 attention이나, diffusion모델을 사용하면 더욱 효과가 좋겠지만 CNN을 반드시 섞어야 할수도 있어. 왜냐하면, 관상학적으로 얼굴의 어느 부위가 어떤 성격에 어떻게 영향을 미쳤는지 설명하는게 관상학이라고 할 수 있으니까 말이야.
 
