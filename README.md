@@ -1,6 +1,6 @@
 # Physiognomy AI (관상 AI)
 This web service is an AI-powered face reading service.  
-[Click here to try](https://physiognomy-ai-JiyongShin.replit.app)
+[Click here to try](https://physiognomy-ai.replit.app)
 
 
 
